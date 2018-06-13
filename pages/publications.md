@@ -8,7 +8,6 @@ menu: true
 order: 3
 ---
 
-<div>
 <em>2018</em>
 <p style="padding-left: 30px;"><strong>30.</strong> Bowling DR,  Logan BA, <strong>Hufkens K</strong>,  Aubrecht DM,  Richardson AD,  Burns SP,  Anderegg WRL, Blanken PD, Eiriksson D (2018) Limitations to winter and spring photosynthesis of a Rocky Mountain subalpine forest. <strong>Agricultural and Forest Meteorology</strong>. 252, <span class="size-m">241-255</span>.</p>
 <p style="padding-left: 30px;"><strong>29.</strong> <strong>Hufkens K.</strong>, Basler J. D., Milliman T. Melaas E., Richardson A.D. (2018) An integrated phenology modelling framework in R: Phenology modelling with phenor. <strong>Methods in Ecology &amp; Evolution.</strong> 9,  1 - 10.</p>
@@ -51,5 +50,6 @@ order: 3
 <p style="padding-left: 30px;"><strong>2.</strong> <strong>Hufkens K.</strong>, Bogaert J., Dong Q.H., Lu L., Huang C.L., Ma M.G., Che T., Li X., Veroustraete F. and Ceulemans R. 2008. Impacts and uncertainties of upscaling of remote-sensing data validation for a semi-arid woodland. <strong>Journal of Arid Environments</strong>. 72: 1490-1505.</p>
 <em>2008</em>
 <p style="padding-left: 30px;"><strong>1.</strong> <strong>Hufkens K.</strong>, Ceulemans R. and Scheunders P. 2008. Estimating the ecotone width in patchy ecotones using a sigmoid wave approach. <strong>Ecological Informatics</strong> 3: 97-104.</p>
-<p style="padding-left: 30px;">For the most recent list of publications including conference abstracts I refer to <a href="https://scholar.google.com/citations?hl=en&amp;user=3ZD7sagAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">my google scholar webpage</a>.</p>
-</div>
+<p style="padding-left: 30px;">
+
+For the most recent list of publications including conference abstracts I refer to <a href="https://scholar.google.com/citations?hl=en&amp;user=3ZD7sagAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">my google scholar webpage</a>.</p>
