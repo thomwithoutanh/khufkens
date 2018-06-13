@@ -1,0 +1,29 @@
+---
+title: scientific legitimacy in publishing
+author: Koen Hufkens
+layout: post
+permalink: /2016/12/17/scientific-legitimacy-in-publishing/
+categories:
+  - Op-Ed
+  - Politics
+  - Science
+tags:
+  - op-ed
+  - publishing
+  - science
+---
+Science and climate science in particular has always been at the center of what, post US election, is being described as fake news. Fake news or "<a href="http://www.nature.com/news/post-truth-a-guide-for-the-perplexed-1.21054">post-truth</a>" (<a href="https://www.theguardian.com/commentisfree/2016/dec/16/not-post-truth-simpler-words-lies-aleppo-trump-mainstream">more honestly plain lies</a>) have been shaping <a href="https://en.wikipedia.org/wiki/Merchants_of_Doubt">the discussion around climate change</a> for years. Over the past years the scale of fake news grew and with it mainstream media outlets lost authority and trust.
+
+This flood of fake news is at it's core a form of obfuscation. Obfuscation aims to hide a true message or signal by increasing the noise which feeds the same channel. It clutters the news sphere using a false equivalency that all information sources (regardless) merit equal weight. Tactics that dominate science discussions that were <a href="https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy">fed by fake news</a> and fought in the public news sphere are slowly shifting to the formal academic world of scientific publishing as fake (science) open access journals become more common.
+
+The past few years there has been a push for open access journals. Open access journals rely on academics to pay for the final publishing of the journal article, rather than asking for <a href="https://www.theatlantic.com/science/archive/2016/01/elsevier-academic-publishing-petition/427059/">exorbitant access fees post publication</a>. Although promising in terms of free access to scientific work the push for open access has led to a flourishing business of shady journals; facilitated by the publish or perish culture in academia. As with fake news, fake academic journals and fake science obfuscate valid research results by increasing the number of low quality research publications one has to wade through.
+
+For example the journal "<a href="http://www.scitechnol.com/expert-opinion-on-environmental-biology.php">Expert Opinion on Environmental Biology</a>" seems like a respectable if not high flying journal with an impact factor of 4.22 (above average in ecology). However, the devil is in the details as the footnote attached reads:
+<blockquote>*Unofficial 2015 Journal Impact Factor was established by dividing the number of articles published in 2013 and 2014 with the number of times they are cited in 2015 based on Google search and the Scholar Citation Index database. If ‘X’ is the total number of articles published in 2013 and 2014, and ‘Y’ is the number of times these articles were cited in indexed journals during 2015 than, impact factor = Y/X</blockquote>
+Generally journals use citation indices, or impact factors, to indicate their visibility within the academic community. Proper journals are mostly listed by the Institute of Scientific Information(currently ISI Web of Knowledge) and summarized in a yearly Science Citation Index report. Most fake journals can't establish these credentials and therefore trick scientists by publishing fake numbers (( More so, when searching on the web for ISI one easily comes across imposters as well. Here the service <strong>I</strong>nternational <strong>S</strong>cientific <strong>I</strong>ndexing (or ISIndexing.com, the name is well chosen) provides a service focussed on "... to increase the visibility and ease of use of open access scientific and scholarly journals." )). Although the journal might still contain valid and good research, the tactics used do not instill trust.
+
+More alarming than the profiteering from <a href="http://www.sciencemag.org/news/2016/12/predatory-publishers-gain-foothold-indian-academia-s-upper-echelon">desperate scientists</a> who chase metrics and the resulting obfuscation is a recent trend of <a href="https://scholarlyoa.com/2016/09/29/scam-publisher-omics-international-buying-legitimate-journals/">merger acquisitions of more respected journals by fake academic publishers</a>. Here the tactic is to buy small legitimate journals to intersperse with their lesser variety, borrowing trust. Not only will these mergers make it harder to distinguish good from bad journals, it will also increase chances of low quality peer-review, as solid science was never the motive of these predatory publishers. If this is a new trend the question remains how to safe-guard scientific legitimacy of open access journals and science in general, and what format to use?
+
+I would argue that to solve the issue of shady open access journals we need even more radical openness in science. If one is forced to publish data, and code (if not links to how to obtain the data from 3th party sources) it become easier to separate those with quality research from those containing nothing but random noise.
+
+The time invested in a fake research article becomes significantly larger, discouraging abuse. In addition, it will force people into good data management as ugly code and data structures will reflect badly on the scientist as well. Furthermore, since all pieces of the research are available it will also solve issues regarding reproducibility and inter-comparison of research results. Finally I would argue that similar practices could be used in conventional journalism, reporting all raw data used, sources (if not endangering lives) and statistics (if applicable). Transparency is the only way forward in an age of fake news and science, lack of it should be regarded as suspicious.

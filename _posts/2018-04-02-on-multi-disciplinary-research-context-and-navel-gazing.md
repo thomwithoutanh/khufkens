@@ -1,0 +1,25 @@
+---
+title: On multi-disciplinary research, context and navel gazing
+author: Koen Hufkens
+layout: post
+permalink: /2018/04/02/on-multi-disciplinary-research-context-and-navel-gazing/
+categories:
+  - Research
+  - Science
+  - Software
+---
+I recently came across the publication titled:  "<a href="http://onlinelibrary.wiley.com/doi/10.1111/geb.12595/full">A global geography of synchrony for terrestrial vegetation</a>" by Defriez and Reuman.  The paper discusses the synchrony of terrestrial vegetation as measured through cyclical patterns in the enhanced vegetation index (EVI) using a systematic analysis of the concordance of time series across the earth surface.
+
+The paper looks at cyclical events in vegetation indices (i.e. vegetation growth) and some reference to phenology, i.e. the study of recurrent life cycle events, and it's ecological implications would have been in place if not necessary. Sadly, no direct reference to phenology was made in the text while only two references directly mention phenology in their title.
+
+Instead the focus of the paper was on the metric "synchrony" and the concept of the Moran effect. The Moran effect can be seen as Tobler's first law of geography,  which postulates that "everything is related to everything else, but near things are more related than distant things " with a time component added. For example, on a landscape level, most trees (of the same species) in a particular area will leaf out around the same time of year. Deviations from these patterns of synchrony therefore inform you about local abiotic or biotic changes in the landscape and through time, and the related species responses.  (Note, that framing this without touching on real life ecological context or phenology is rather hard).
+
+Provided this oversight of any mention of the phenology or any larger ecological context I decided to write a very polite rebuttal using a key statement made in the paper:  "... However, our new result that geographies of synchrony in temperature and precipitation are important correlates of the geography of EVI synchrony, while true, does not follow automatically from the earlier knowledge." The latter statement is false - and the many phenology models in existence prove this (if you want to read the literature that is). There are cases where synchrony is an interesting study topic, but most of these cases are lost at the scale on which the analysis is executed.
+
+Sadly, my comment was not well received by the Global Ecology and Biogeography editors and I quote:  " Critique letters need to be novel enough and interesting enough <strong>to attract readers attention</strong> at the same level as an original paper. I don't feel that debate over whether a one sentence claim to novelty was exaggerated or not rises to that level. Especially as they go on to qualify that statement." Aside from the point that comments only seems welcome if they generate readers not when they are factually correct (so far for peer review), I used this one sentence a problem emblematic to the whole paper to pitch my argument. A subtlety not picked up by the editors, which seemingly have an equally narrow frame of mind as the authors.
+
+Today's research is multi-disciplinary and failing to acknowledge this by not reading widely and referring to previous research and providing context puts <strong>the author at fault</strong>.  The editors pointedly refer to the fact that the authors qualify the statement,  sadly doing so within a very narrow context of bio-geography and landscape ecology and navel-gazing on a technical discussion surrounding the Moran effect. Research never happens in isolation. Yet the authors fails to bridge fields, ignores previous findings, adding little to the research community without this proper context (overall a rather impressive feat).
+
+Aside from the lack of ecological context the paper does not address the fact that the analysis is dealing with land surface dynamics, not terrestrial vegetation. The EVI signal as aggregated by the authors combines multiple land cover types, ranging from urban areas, over crop fields with their distinct growing cycles (if not in rotation), over barren areas. Lumping these together at a 1 degree scale (~100x100 km) is questionable at best. Patterns derived are thus tainted by the proportion of land cover type(s) which make up a 1 degree grid cell used in the analysis. Thus, patterns are representative of the terrestrial land surface, not terrestrial vegetation. The latter greatly impacts, if not discredits, any further analysis and direct attribution to vegetation changes.
+
+Finally, the lesson I have learned from this is that when writing a comment on a paper you need to utterly destroy the previous authors.  Do not leave a piece standing. Surely, being considerate and constructive will not "attract a sufficient readership" to merit publication.
