@@ -13,7 +13,11 @@ As a lead on the Belgian Science Policy Office funded “Congo basin eco-climato
 
 ## [Jungle Rhythms](http://junglerhythms.org)
 
+<img src="/assets/img/docs/millettia_laurentii.png" style="float: right;" width="60%">
+
 The Jungle Rhythms project aims to transcribe hand-drawn observations of the life cycle events of more than 2,000 trees (of more than 500 different species!) between 1937 and 1958 in the tropical rainforest of the Democratic Republic of the Congo. Long-term observations of tropical trees are rare. The Jungle Rhythms observations comprise three decades of data on the central African tropical forest, and are therefore an extraordinary source of information on the life cycles of tropical trees.
+
+
 
 ## [Wood cellulose extraction](/cellulose/)
 
