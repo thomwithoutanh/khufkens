@@ -4,11 +4,11 @@ author: Koen Hufkens
 layout: post
 permalink: /2018/04/18/the-unseen-taxes-on-post-docs/
 categories:
-  - Op-Ed
+  - Op-ed
   - Science
 tags:
-  - op-ed
   - science
+  - op-ed
 ---
 It is tax season in most countries. As most law abiding citizens post-docs pay taxes on their wages. However, there are many unseen taxes in a post-docs life. Most of them go undocumented.
 
