@@ -14,4 +14,4 @@ In addition to the blog, and links to team member, contact information etc. I vi
 
 You can find visualizations for a large number of species (409) on the [data visualization page](http://junglerhythms.org/data/visual/). A full description of the data presented there is given on the [About the data page](http://junglerhythms.org/data/).
 
-![](/assets/img/millettia_laurentii.png)
+![](/assets/img/docs/millettia_laurentii.png)
