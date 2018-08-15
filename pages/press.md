@@ -10,6 +10,11 @@ order: 6
 A selection of my research and projects as featured in the media. This list is by no means comprehensive, mostly listing major features.
 
 <ul>
+ 	<li><strong>&And Festival:</strong>  <a href="https://www.andleuven.com/en/bio/koen-hufkens">Invited speaker on the &And Festival on Health, Tech and Creativity</a></li>
+ 	Discussing food security through smartphone based technology for smallholder farmer loss verification and insurance.
+</ul>
+
+<ul>
  	<li><strong>ENSIA.com:</strong>  <a href="https://ensia.com/features/congo-rainforest/">Deep in the jungle, scientists explore the links between the Congo and climate change</a></li>
 </ul>
 
