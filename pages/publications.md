@@ -10,7 +10,11 @@ order: 3
 
 <em>2018</em>
 
-<p style="padding-left: 30px;"><strong>31.</strong> Richardson AD, <strong>Hufkens K</strong>, Aubrecht DM, Furze ME, Seyednasrollah B, Krassovski M, Latimer JM, Nettles R, Heiderman RR, Warren JM, Hanson PJ. (2018) Ecosystem warming extends vegetation activity but heightens vulnerability to cold temperatures. <strong>Nature</strong>. early online.</p>
+<p style="padding-left: 30px;"><strong>33.</strong> Richardson AD, <strong>Hufkens K</strong>, Aubrecht DM, Furze ME, Seyednasrollah B, Krassovski M, Latimer JM, Nettles R, Heiderman RR, Warren JM, Hanson PJ. (2018) Ecosystem warming extends vegetation activity but heightens vulnerability to cold temperatures. <strong>Nature</strong>. 560, 368–371.</p>
+
+<p style="padding-left: 30px;"><strong>32.</strong> Klosterman S, <strong>Hufkens K</strong>, Milliman T, Frolking S (2018) Later springs green-up faster: the relation between onset and completion of green-up in deciduous forests of North America. <strong>International Journal of Biometeorology</strong>. https://doi.org/10.1007/s00484-018-1564-9.</p>
+
+<p style="padding-left: 30px;"><strong>31.</strong> Richardson AD, <strong>Hufkens K</strong>, Milliman T, Frolking S. (2018) Intercomparison of phenological transition dates derived from the PhenoCam Dataset V1.0 and MODIS satellite remote sensing. <strong>Scientific Reports</strong>. 8, 5679.</p>
 
 <p style="padding-left: 30px;"><strong>30.</strong> Bowling DR,  Logan BA, <strong>Hufkens K</strong>,  Aubrecht DM,  Richardson AD,  Burns SP,  Anderegg WRL, Blanken PD, Eiriksson D (2018) Limitations to winter and spring photosynthesis of a Rocky Mountain subalpine forest. <strong>Agricultural and Forest Meteorology</strong>. 252, <span class="size-m">241-255</span>.</p>
 <p style="padding-left: 30px;"><strong>29.</strong> <strong>Hufkens K.</strong>, Basler J. D., Milliman T. Melaas E., Richardson A.D. (2018) An integrated phenology modelling framework in R: Phenology modelling with phenor. <strong>Methods in Ecology &amp; Evolution.</strong> 9,  1 - 10.</p>
