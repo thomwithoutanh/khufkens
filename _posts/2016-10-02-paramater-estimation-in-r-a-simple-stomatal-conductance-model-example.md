@@ -17,11 +17,11 @@ tags:
 ---
 Most modeling approaches use some sort of optimization method to estimate parameters. These parameters are the knobs one has to turn to tune a statistical or mechanistic model exactly right to make it fit the data. Below I give a quick example of parameter estimation (in R) using a stomatal conductance (g<sub>s</sub>) model.
 
-A collaborator in the lab came to me with the question to quickly introduce him to parameter estimation in R in order to optimize a stomatal conductance model. This is the document and code I used to briefly explain the methodology used.
+A collaborator in the lab came to me with the question to quickly introduce him to parameter estimation in R in order to optimize a stomatal conductance model. This is the document and code I used to briefly explain the methodology.
 
 In this example a model calculates stomatal conductance based upon environmental variables and measurements of g<sub>max</sub> (or the maximum diffuse stomatal conductance). This model illustrates nicely how one can use R and an optimizer to estimate complex model parameters of non-linear models.
 
-The framework I put together estimates parameters using a [Generalized Simulated Annealing optimization R package](https://cran.r-project.org/web/packages/GenSA/index.html). However, different optimization packages and methods exist. Some worth mentioning are the default 'optim' function from the 'stats' package and [DiffeRential Evolution Adaptive Metropolis (DREAM)](http://dream.r-forge.r-project.org/). However, I found for smaller project and quick model development GenSA works really well.
+The framework I put together estimates parameters using a [Generalized Simulated Annealing optimization R package](https://cran.r-project.org/web/packages/GenSA/index.html). However, different optimization packages and methods exist. Some worth mentioning are the default 'optim' function from the 'stats' package and [DiffeRential Evolution Adaptive Metropolis (DREAM)](http://dream.r-forge.r-project.org/). However, I found for smaller projects and quick model development GenSA works really well.
 
 The crude stomatal conductance model as formulated borrows heavily from model structures as described by Jarvis (1976) and White et al. 1999, both succintly described in Damour et al. (2010). The latter paper describes a variety of stomatal conductance models, which could be used with the framework as outlined in this example.
 
@@ -42,25 +42,24 @@ Or condensed and written into an R function this gives:
 ```r
 gs.model = function(par = par, data = data) {
 
-# put variables in readable format
-vpd = data$vpd
-co2 = data$co2
-par_val = data$par
-gmax = data$gmax
+ # put variables in readable format
+ vpd <- data$vpd
+ co2 <- data$co2
+ par_val <- data$par
+ gmax <- data$gmax
 
-# unfold parameters
-# for clarity
-c1 = par[1]
-c2 = par[2]
-v2 = par[3]
-p1 = par[4]
-#p2 = par[5]
+ # unfold parameters
+ # for clarity
+ c1 <- par[1]
+ c2 <- par[2]
+ v2 <- par[3]
+ p1 <- par[4]
 
-# model formulation
-gs = gmax * c1 * exp(c2 * co2) * exp(v2 * vpd) * (( 2000 * par_val) / (p1 + par_val))
+ # model formulation
+ gs <- gmax * c1 * exp(c2 * co2) * exp(v2 * vpd) * (( 2000 * par_val) / (p1 + par_val))
 
-# return stomatal conductance
-return(gs)
+ # return stomatal conductance
+ return(gs)
 }
 ```
 Here, the 'data' and 'par' variables are a data frame and vector including the model drivers and parameters respectively.
@@ -70,12 +69,12 @@ The optimization minimizes a cost function which in this example is defined as t
 ```r
 # run model and compare to true values
 # returns the RMSE
-cost.function = function(data, par) {
-obs = as.vector(data$COND)
-pred = as.vector(gs.model(par = par, data = data))
-s = (obs - pred)^2
-RMSE = sqrt(sum(s, na.rm = TRUE)/length(pred))
-return(RMSE)
+cost.function <- function(data, par) {
+ obs <- as.vector(data$COND)
+ pred <- as.vector(gs.model(par = par, data = data))
+ s < (obs - pred)^2
+ RMSE <- sqrt(mean(s, na.rm = TRUE))
+ return(RMSE)
 }
 ```
 
@@ -86,17 +85,17 @@ In the final optimization will iteratively step through the parameter space, run
 par = c(0.65, -0.002, -0.689, 0.05)
 
 # limits to the parameter space
-lower = c(0,-10,-100,0)
-upper = c(100,0,0,100)
+lower <- c(0,-10,-100,0)
+upper <- c(100,0,0,100)
 
 # optimize the model parameters
 optim.par = GenSA(
-par = par,
-fn = cost.function,
-data = data,
-lower = lower,
-upper = upper,
-control=list(temperature=4000)
+ par = par,
+ fn = cost.function,
+ data = data,
+ lower = lower,
+ upper = upper,
+ control=list(temperature = 4000)
 )
 ```
 
