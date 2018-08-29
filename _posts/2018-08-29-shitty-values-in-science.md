@@ -18,4 +18,4 @@ Life is full of shitty values, or metrics, such as **likes** and **retweets**. A
 
 All these values, when observed more closely, are largely outside your control and can't be seen as a true metric for your academic success. For example, they do not take into account your priviledged background, or lack thereof.
 
-If you want to be a happy scientist make tangible contributions in projects you control and evaluate yourself. Examples of those are open source code and data, contributions to academic societies, and in general most community based work.
+If you want to be a happy scientist make tangible contributions in projects you control and evaluate yourself. Examples of those are open source code and data, contributions to academic societies, and in general community based work.
