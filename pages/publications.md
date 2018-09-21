@@ -10,6 +10,8 @@ order: 3
 
 <em>2018</em>
 
+<p style="padding-left: 30px;"><strong>34.</strong> Bastin J-F, Rutishauser E, Kellner J R, ... Hufkens K. ... et al. (2018) Pan‐tropical prediction of forest structure from the largest trees.  <strong>Global Ecology & Biogeography</strong>. online early , 1-18</p>
+
 <p style="padding-left: 30px;"><strong>33.</strong> Richardson AD, <strong>Hufkens K</strong>, Aubrecht DM, Furze ME, Seyednasrollah B, Krassovski M, Latimer JM, Nettles R, Heiderman RR, Warren JM, Hanson PJ. (2018) Ecosystem warming extends vegetation activity but heightens vulnerability to cold temperatures. <strong>Nature</strong>. 560, 368–371.</p>
 
 <p style="padding-left: 30px;"><strong>32.</strong> Klosterman S, <strong>Hufkens K</strong>, Milliman T, Frolking S (2018) Later springs green-up faster: the relation between onset and completion of green-up in deciduous forests of North America. <strong>International Journal of Biometeorology</strong>. https://doi.org/10.1007/s00484-018-1564-9.</p>
