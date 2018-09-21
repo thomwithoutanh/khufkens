@@ -14,9 +14,9 @@ tags:
   - maps
 ---
 
-In much of my work I use geospatial data (either vector or raster maps). However, visualizing this data easily for people unfamiliar with geographic information system (GIS) toolsets is often difficult as they only care about the result (a nice map) rather than learning how to handle a new visualization tool. In short, to communicate yoiur work you need to present maps in an appealing way.
+In much of my work I use geospatial data (either vector or raster maps). However, visualizing this data easily for people unfamiliar with geographic information system (GIS) toolsets is often difficult as end users care about the result (a nice map) not learning visualization tools. In short, to communicate your work you need to present maps in an appealing way.
 
-There are commercial to do so, most prominently mapbox. Mapbox does have a [free option](https://www.mapbox.com/pricing/), but this obviously only stretches so far. An other option I want to present here is using github as a fast and easy way to host map tiles and a micro-website, by using QGis and the Qtiles plugin.
+There are commercial options to do so, most prominently mapbox. Mapbox does have a [free option](https://www.mapbox.com/pricing/), but this obviously only stretches so far. An other option I want to present here is using github as a fast and easy way to host map tiles and a micro-website, by using QGis and the Qtiles plugin.
 
 The basic procedure would be to load your mapdata into [QGis](https://www.qgis.org/en/site/), install the [QTiles plugin](https://plugins.qgis.org/plugins/qtiles/), and run the plugin to build map tiles. Make sure to activate the "write leaflet-based viewer" option. This will generate a folder with a map tiles pyramid and an html file to render a leaflet map. You can specify the number of zoom levels included and the size and data format of the tiles. Most defaults work well, but I suggest to increase the file dimensions to reduce the number of tiles generated.
 
